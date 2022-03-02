@@ -19,7 +19,7 @@ function App() {
   function onSearch(ciudad) {
     //Llamado a la API del clima
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&units=metric&appid=${apiKey}`
+      `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&units=metric&appid=${apiKey}`
     )
       .then((r) => r.json())
       .then((recurso) => {
@@ -40,7 +40,7 @@ function App() {
           };
           setCities((oldCities) => [...oldCities, ciudad]);
         } else {
-          swal("Ciudad no encontrada");
+          swal("City not found");
         }
       });
   }
