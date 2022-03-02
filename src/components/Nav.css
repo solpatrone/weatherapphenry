@@ -1,0 +1,22 @@
+#logoHenry {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.orange {
+  color: var(--dark-orange);
+}
+.orange:hover {
+  color: var(--light-orange);
+}
+
+.title:hover {
+  text-decoration: none;
+}

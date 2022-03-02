@@ -1,0 +1,33 @@
+.formContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  border: none;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 18px;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 1px 1px 6px var(--light-orange);
+}
+
+.btn {
+  border: none;
+  background-color: var(--orange);
+  color: var(--white);
+  font-size: 18px;
+  outline: none;
+  transition: 1s all;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: var(--dark-orange);
+  color: var(--white);
+  /* font-weight: bold; */
+  outline: none;
+}

@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  font-family: "Hubballi", cursive;
+  --dark-color: #3f3f3f;
+  --orange: #febd44;
+  --light-orange: #fed789;
+  --dark-orange: #dd9104;
+  --white: #fff;
+}
+
+.swal-modal {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.swal-text {
+  font-size: 30px;
+  color: var(--dark-orange);
+}
+
+.swal-button {
+  background-color: var(--orange);
+  border: 1px solid var(--dark-orange);
+}
+
+.swal-modal .swal-button:hover {
+  background: var(--dark-orange);
+}
